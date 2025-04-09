@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libbf_intern_opensubdiv.a CMakeFiles/bf_intern_opensubdiv.dir/stub/opensubdiv_stub.cc.o CMakeFiles/bf_intern_opensubdiv.dir/stub/opensubdiv_evaluator_stub.cc.o CMakeFiles/bf_intern_opensubdiv.dir/stub/opensubdiv_gl_mesh_stub.cc.o CMakeFiles/bf_intern_opensubdiv.dir/stub/opensubdiv_topology_refiner_stub.cc.o
+/usr/bin/ranlib ../../lib/libbf_intern_opensubdiv.a

@@ -1,0 +1,115 @@
+source/blender/blenloader/CMakeFiles/bf_blenloader.dir/intern/versioning_dna.c.o: \
+ /home/orangepi/blender-arm64/source/blender/blenloader/intern/versioning_dna.c \
+ /usr/include/stdc-predef.h \
+ /home/orangepi/blender-arm64/source/blender/blenlib/BLI_compiler_attrs.h \
+ /home/orangepi/blender-arm64/source/blender/blenlib/BLI_utildefines.h \
+ /home/orangepi/blender-arm64/source/blender/blenlib/BLI_compiler_compat.h \
+ /home/orangepi/blender-arm64/source/blender/blenlib/BLI_sys_types.h \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
+ /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+ /usr/include/aarch64-linux-gnu/bits/timesize.h \
+ /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+ /usr/include/aarch64-linux-gnu/bits/long-double.h \
+ /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+ /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+ /usr/include/aarch64-linux-gnu/bits/types.h \
+ /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+ /usr/include/aarch64-linux-gnu/bits/time64.h \
+ /usr/include/aarch64-linux-gnu/bits/wchar.h \
+ /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+ /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h /usr/include/uchar.h \
+ /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+ /home/orangepi/blender-arm64/source/blender/blenlib/BLI_utildefines_variadic.h \
+ /home/orangepi/blender-arm64/source/blender/blenlib/BLI_assert.h \
+ /usr/include/stdlib.h /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+ /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+ /usr/include/aarch64-linux-gnu/bits/floatn.h \
+ /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+ /usr/include/aarch64-linux-gnu/sys/types.h \
+ /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/endian.h /usr/include/aarch64-linux-gnu/bits/endian.h \
+ /usr/include/aarch64-linux-gnu/bits/endianness.h \
+ /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+ /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/aarch64-linux-gnu/sys/select.h \
+ /usr/include/aarch64-linux-gnu/bits/select.h \
+ /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/aarch64-linux-gnu/bits/select2.h \
+ /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+ /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+ /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+ /usr/include/alloca.h \
+ /usr/include/aarch64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/aarch64-linux-gnu/bits/stdlib.h \
+ /home/orangepi/blender-arm64/source/blender/blenlib/BLI_compiler_typecheck.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_genfile.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/intern/dna_utils.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_listBase.h \
+ /home/orangepi/blender-arm64/source/blender/blenloader/BLO_readfile.h \
+ /home/orangepi/blender-arm64/source/blender/blenlib/BLI_sys_types.h \
+ /home/orangepi/blender-arm64/source/blender/blenloader/intern/readfile.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_sdna_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_space_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_color_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_defs.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/../blenlib/BLI_sys_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_vec_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_image_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_ID.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_listBase.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_movieclip_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_tracking_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_node_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_scene_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_collection_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_curveprofile_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_customdata_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_freestyle_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_layer_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_material_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_userdef_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_texture_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_view3d_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_object_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_object_enums.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_action_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_view2d_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_view3d_enums.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_outliner_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_sequence_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_vfont_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_windowmanager_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_screen_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_xr_types.h \
+ /usr/include/zlib.h /usr/include/zconf.h \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/limits.h \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/syslimits.h \
+ /usr/include/limits.h /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/aarch64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
+ /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h /usr/include/unistd.h \
+ /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
+ /usr/include/aarch64-linux-gnu/bits/environments.h \
+ /usr/include/aarch64-linux-gnu/bits/confname.h \
+ /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
+ /usr/include/aarch64-linux-gnu/bits/unistd.h \
+ /usr/include/aarch64-linux-gnu/bits/unistd_ext.h

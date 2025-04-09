@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libbf_intern_audaspace.a CMakeFiles/bf_intern_audaspace.dir/intern/AUD_Set.cpp.o CMakeFiles/bf_intern_audaspace.dir/intern/AUD_PyInit.cpp.o
+/usr/bin/ranlib ../../lib/libbf_intern_audaspace.a

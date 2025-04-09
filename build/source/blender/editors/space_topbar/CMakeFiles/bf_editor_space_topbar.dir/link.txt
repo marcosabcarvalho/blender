@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libbf_editor_space_topbar.a CMakeFiles/bf_editor_space_topbar.dir/space_topbar.c.o
+/usr/bin/ranlib ../../../../lib/libbf_editor_space_topbar.a

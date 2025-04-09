@@ -1,0 +1,1900 @@
+The system is: Linux - 5.10.160-rockchip-rk3588 - aarch64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/orangepi/blender-arm64/build/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/orangepi/blender-arm64/build/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-MJQVH0
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8754c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8754c.dir/build.make CMakeFiles/cmTC_8754c.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-MJQVH0'
+Building C object CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_8754c.dir/'
+ /usr/lib/gcc/aarch64-linux-gnu/11/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8754c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccW2W4iX.s
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/aarch64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 52ed857e9cd110e5efaa797811afcfbb
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_8754c.dir/'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.o /tmp/ccW2W4iX.s
+GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_8754c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8754c.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.o -o cmTC_8754c 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8754c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_8754c.'
+ /usr/lib/gcc/aarch64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpFqZvk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_8754c /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8754c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_8754c.'
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-MJQVH0'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/aarch64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/aarch64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/11/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/aarch64-linux-gnu/11/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-MJQVH0]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8754c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8754c.dir/build.make CMakeFiles/cmTC_8754c.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-MJQVH0']
+  ignore line: [Building C object CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_8754c.dir/']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/11/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8754c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccW2W4iX.s]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 52ed857e9cd110e5efaa797811afcfbb]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_8754c.dir/']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.o /tmp/ccW2W4iX.s]
+  ignore line: [GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_8754c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8754c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.o -o cmTC_8754c ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8754c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_8754c.']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpFqZvk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_8754c /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccpFqZvk.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8754c] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_8754c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o] ==> [/usr/lib/aarch64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o] ==> [/usr/lib/aarch64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o] ==> [/usr/lib/aarch64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11] ==> [/usr/lib/gcc/aarch64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/aarch64-linux-gnu/Scrt1.o;/usr/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o;/usr/lib/aarch64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/11;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-5TdeBF
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2b0dc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2b0dc.dir/build.make CMakeFiles/cmTC_2b0dc.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-5TdeBF'
+Building CXX object CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2b0dc.dir/'
+ /usr/lib/gcc/aarch64-linux-gnu/11/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2b0dc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccq6qaV2.s
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/aarch64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/aarch64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3e6e780af1232722b47e0979fda82402
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2b0dc.dir/'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccq6qaV2.s
+GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_2b0dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b0dc.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2b0dc 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b0dc' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_2b0dc.'
+ /usr/lib/gcc/aarch64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBbF4ID.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_2b0dc /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b0dc' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_2b0dc.'
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-5TdeBF'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/11]
+    add: [/usr/include/aarch64-linux-gnu/c++/11]
+    add: [/usr/include/c++/11/backward]
+    add: [/usr/lib/gcc/aarch64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/aarch64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/include/aarch64-linux-gnu/c++/11] ==> [/usr/include/aarch64-linux-gnu/c++/11]
+  collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/11/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/aarch64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/aarch64-linux-gnu/11/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-5TdeBF]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2b0dc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2b0dc.dir/build.make CMakeFiles/cmTC_2b0dc.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-5TdeBF']
+  ignore line: [Building CXX object CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2b0dc.dir/']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/11/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2b0dc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccq6qaV2.s]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/aarch64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3e6e780af1232722b47e0979fda82402]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2b0dc.dir/']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccq6qaV2.s]
+  ignore line: [GNU assembler version 2.38 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_2b0dc]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b0dc.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2b0dc ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b0dc' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_2b0dc.']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBbF4ID.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_2b0dc /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccBbF4ID.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2b0dc] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_2b0dc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o] ==> [/usr/lib/aarch64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o] ==> [/usr/lib/aarch64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o] ==> [/usr/lib/aarch64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11] ==> [/usr/lib/gcc/aarch64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/aarch64-linux-gnu/Scrt1.o;/usr/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/11/crtendS.o;/usr/lib/aarch64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/11;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-sFOh1o
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_380d5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_380d5.dir/build.make CMakeFiles/cmTC_380d5.dir/build
+gmake[1]: Entrando no diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-sFOh1o'
+Building C object CMakeFiles/cmTC_380d5.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_380d5.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-sFOh1o/src.c
+Linking C executable cmTC_380d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_380d5.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_380d5.dir/src.c.o -o cmTC_380d5 
+gmake[1]: Saindo do diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-sFOh1o'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-O8VUzG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1d4c2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1d4c2.dir/build.make CMakeFiles/cmTC_1d4c2.dir/build
+gmake[1]: Entrando no diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-O8VUzG'
+Building C object CMakeFiles/cmTC_1d4c2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_1d4c2.dir/CheckFunctionExists.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-O8VUzG/CheckFunctionExists.c
+Linking C executable cmTC_1d4c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d4c2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_1d4c2.dir/CheckFunctionExists.c.o -o cmTC_1d4c2  /usr/lib/aarch64-linux-gnu/libX11.so /usr/lib/aarch64-linux-gnu/libXext.so 
+gmake[1]: Saindo do diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-O8VUzG'
+
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-jA7L5d
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5e0bf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5e0bf.dir/build.make CMakeFiles/cmTC_5e0bf.dir/build
+gmake[1]: Entrando no diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-jA7L5d'
+Building C object CMakeFiles/cmTC_5e0bf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_5e0bf.dir/CheckFunctionExists.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-jA7L5d/CheckFunctionExists.c
+Linking C executable cmTC_5e0bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e0bf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_5e0bf.dir/CheckFunctionExists.c.o -o cmTC_5e0bf 
+gmake[1]: Saindo do diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-jA7L5d'
+
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-7ZThnO
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_583b6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_583b6.dir/build.make CMakeFiles/cmTC_583b6.dir/build
+gmake[1]: Entrando no diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-7ZThnO'
+Building C object CMakeFiles/cmTC_583b6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_583b6.dir/CheckFunctionExists.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-7ZThnO/CheckFunctionExists.c
+Linking C executable cmTC_583b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_583b6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_583b6.dir/CheckFunctionExists.c.o -o cmTC_583b6 
+gmake[1]: Saindo do diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-7ZThnO'
+
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-rD9QpJ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e50cc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e50cc.dir/build.make CMakeFiles/cmTC_e50cc.dir/build
+gmake[1]: Entrando no diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-rD9QpJ'
+Building C object CMakeFiles/cmTC_e50cc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_e50cc.dir/CheckFunctionExists.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-rD9QpJ/CheckFunctionExists.c
+Linking C executable cmTC_e50cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e50cc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_e50cc.dir/CheckFunctionExists.c.o -o cmTC_e50cc 
+gmake[1]: Saindo do diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-rD9QpJ'
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-kmWdpg
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bffc6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bffc6.dir/build.make CMakeFiles/cmTC_bffc6.dir/build
+gmake[1]: Entrando no diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-kmWdpg'
+Building C object CMakeFiles/cmTC_bffc6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_bffc6.dir/CheckFunctionExists.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-kmWdpg/CheckFunctionExists.c
+Linking C executable cmTC_bffc6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bffc6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_bffc6.dir/CheckFunctionExists.c.o -o cmTC_bffc6 
+gmake[1]: Saindo do diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-kmWdpg'
+
+
+
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-fnLQDH
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3b6a0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3b6a0.dir/build.make CMakeFiles/cmTC_3b6a0.dir/build
+gmake[1]: Entrando no diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-fnLQDH'
+Building C object CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.o
+/usr/bin/cc   -fuse-ld=gold -fopenmp -v -o CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-fnLQDH/OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-fuse-ld=gold' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_3b6a0.dir/'
+ /usr/lib/gcc/aarch64-linux-gnu/11/cc1 -quiet -v -imultiarch aarch64-linux-gnu -D_REENTRANT /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-fnLQDH/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_3b6a0.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -fuse-ld=gold -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccQPjxYn.s
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/aarch64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 52ed857e9cd110e5efaa797811afcfbb
+COLLECT_GCC_OPTIONS='-fuse-ld=gold' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_3b6a0.dir/'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.o /tmp/ccQPjxYn.s
+Gnu assembler versão 2.38 (aarch64-linux-gnu) usando versão BFD (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fuse-ld=gold' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.'
+Linking C executable cmTC_3b6a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b6a0.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp -v  -no-pie  CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.o -o cmTC_3b6a0  -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/
+Reading specs from /usr/lib/gcc/aarch64-linux-gnu/11/libgomp.spec
+COLLECT_GCC_OPTIONS='-fuse-ld=gold' '-fopenmp' '-v' '-no-pie' '-o' 'cmTC_3b6a0' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'cmTC_3b6a0.'
+ /usr/lib/gcc/aarch64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX5o7Ps.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -fuse-ld=gold -z relro -o cmTC_3b6a0 /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/11/crtend.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-fuse-ld=gold' '-fopenmp' '-v' '-no-pie' '-o' 'cmTC_3b6a0' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'cmTC_3b6a0.'
+gmake[1]: Saindo do diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-fnLQDH'
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-fnLQDH]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3b6a0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3b6a0.dir/build.make CMakeFiles/cmTC_3b6a0.dir/build]
+  ignore line: [gmake[1]: Entrando no diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-fnLQDH']
+  ignore line: [Building C object CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.o]
+  ignore line: [/usr/bin/cc   -fuse-ld=gold -fopenmp -v -o CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-fnLQDH/OpenMPTryFlag.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fuse-ld=gold' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_3b6a0.dir/']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/11/cc1 -quiet -v -imultiarch aarch64-linux-gnu -D_REENTRANT /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-fnLQDH/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_3b6a0.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -fuse-ld=gold -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccQPjxYn.s]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 52ed857e9cd110e5efaa797811afcfbb]
+  ignore line: [COLLECT_GCC_OPTIONS='-fuse-ld=gold' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_3b6a0.dir/']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.o /tmp/ccQPjxYn.s]
+  ignore line: [Gnu assembler versão 2.38 (aarch64-linux-gnu) usando versão BFD (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fuse-ld=gold' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.']
+  ignore line: [Linking C executable cmTC_3b6a0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b6a0.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -fuse-ld=gold -fopenmp -v  -no-pie  CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.o -o cmTC_3b6a0  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/aarch64-linux-gnu/11/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fuse-ld=gold' '-fopenmp' '-v' '-no-pie' '-o' 'cmTC_3b6a0' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'cmTC_3b6a0.']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX5o7Ps.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -fuse-ld=gold -z relro -o cmTC_3b6a0 /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/11/crtend.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccX5o7Ps.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-fuse-ld=gold] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3b6a0] ==> ignore
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_3b6a0.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11] ==> [/usr/lib/gcc/aarch64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit objs: []
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/11;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-diikp6
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13d1b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13d1b.dir/build.make CMakeFiles/cmTC_13d1b.dir/build
+gmake[1]: Entrando no diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-diikp6'
+Building CXX object CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.o
+/usr/bin/c++   -fuse-ld=gold -fopenmp -v -o CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-diikp6/OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-fuse-ld=gold' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_13d1b.dir/'
+ /usr/lib/gcc/aarch64-linux-gnu/11/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-diikp6/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_13d1b.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fuse-ld=gold -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccS6IOBm.s
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/aarch64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/aarch64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3e6e780af1232722b47e0979fda82402
+COLLECT_GCC_OPTIONS='-fuse-ld=gold' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_13d1b.dir/'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.o /tmp/ccS6IOBm.s
+Gnu assembler versão 2.38 (aarch64-linux-gnu) usando versão BFD (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fuse-ld=gold' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.'
+Linking CXX executable cmTC_13d1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13d1b.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp -v  -no-pie  CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.o -o cmTC_13d1b  -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/
+Reading specs from /usr/lib/gcc/aarch64-linux-gnu/11/libgomp.spec
+COLLECT_GCC_OPTIONS='-fuse-ld=gold' '-fopenmp' '-v' '-no-pie' '-o' 'cmTC_13d1b' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'cmTC_13d1b.'
+ /usr/lib/gcc/aarch64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRfxTf0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -fuse-ld=gold -z relro -o cmTC_13d1b /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/11/crtend.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-fuse-ld=gold' '-fopenmp' '-v' '-no-pie' '-o' 'cmTC_13d1b' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'cmTC_13d1b.'
+gmake[1]: Saindo do diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-diikp6'
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-diikp6]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13d1b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13d1b.dir/build.make CMakeFiles/cmTC_13d1b.dir/build]
+  ignore line: [gmake[1]: Entrando no diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-diikp6']
+  ignore line: [Building CXX object CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/bin/c++   -fuse-ld=gold -fopenmp -v -o CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-diikp6/OpenMPTryFlag.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fuse-ld=gold' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_13d1b.dir/']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/11/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-diikp6/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_13d1b.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fuse-ld=gold -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccS6IOBm.s]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/aarch64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3e6e780af1232722b47e0979fda82402]
+  ignore line: [COLLECT_GCC_OPTIONS='-fuse-ld=gold' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_13d1b.dir/']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.o /tmp/ccS6IOBm.s]
+  ignore line: [Gnu assembler versão 2.38 (aarch64-linux-gnu) usando versão BFD (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fuse-ld=gold' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.']
+  ignore line: [Linking CXX executable cmTC_13d1b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13d1b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -fuse-ld=gold -fopenmp -v  -no-pie  CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.o -o cmTC_13d1b  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/11/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/aarch64-linux-gnu/11/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fuse-ld=gold' '-fopenmp' '-v' '-no-pie' '-o' 'cmTC_13d1b' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread' '-dumpdir' 'cmTC_13d1b.']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRfxTf0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -fuse-ld=gold -z relro -o cmTC_13d1b /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/11/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/11 -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/11/../../.. CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/11/crtend.o /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccRfxTf0.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-fuse-ld=gold] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_13d1b] ==> ignore
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_13d1b.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11] ==> [/usr/lib/gcc/aarch64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit objs: []
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/11;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test C_WARN_ALL succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-qlg6q5
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3457a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3457a.dir/build.make CMakeFiles/cmTC_3457a.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-qlg6q5'
+Building C object CMakeFiles/cmTC_3457a.dir/src.c.o
+/usr/bin/cc -DC_WARN_ALL  -fuse-ld=gold -fopenmp    -Wall -o CMakeFiles/cmTC_3457a.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-qlg6q5/src.c
+Linking C executable cmTC_3457a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3457a.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_3457a.dir/src.c.o -o cmTC_3457a 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-qlg6q5'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_CAST_ALIGN succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-oMqhvm
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_543c5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_543c5.dir/build.make CMakeFiles/cmTC_543c5.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-oMqhvm'
+Building C object CMakeFiles/cmTC_543c5.dir/src.c.o
+/usr/bin/cc -DC_WARN_CAST_ALIGN  -fuse-ld=gold -fopenmp    -Wcast-align -o CMakeFiles/cmTC_543c5.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-oMqhvm/src.c
+Linking C executable cmTC_543c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_543c5.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_543c5.dir/src.c.o -o cmTC_543c5 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-oMqhvm'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_ERROR_IMPLICIT_FUNCTION_DECLARATION succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-9ty16r
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7bc4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7bc4.dir/build.make CMakeFiles/cmTC_f7bc4.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-9ty16r'
+Building C object CMakeFiles/cmTC_f7bc4.dir/src.c.o
+/usr/bin/cc -DC_WARN_ERROR_IMPLICIT_FUNCTION_DECLARATION  -fuse-ld=gold -fopenmp    -Werror=implicit-function-declaration -o CMakeFiles/cmTC_f7bc4.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-9ty16r/src.c
+Linking C executable cmTC_f7bc4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7bc4.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_f7bc4.dir/src.c.o -o cmTC_f7bc4 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-9ty16r'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_ERROR_RETURN_TYPE succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-sGtPnw
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_55e1c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_55e1c.dir/build.make CMakeFiles/cmTC_55e1c.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-sGtPnw'
+Building C object CMakeFiles/cmTC_55e1c.dir/src.c.o
+/usr/bin/cc -DC_WARN_ERROR_RETURN_TYPE  -fuse-ld=gold -fopenmp    -Werror=return-type -o CMakeFiles/cmTC_55e1c.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-sGtPnw/src.c
+Linking C executable cmTC_55e1c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55e1c.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_55e1c.dir/src.c.o -o cmTC_55e1c 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-sGtPnw'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_ERROR_VLA succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-sSwCba
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9d304/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9d304.dir/build.make CMakeFiles/cmTC_9d304.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-sSwCba'
+Building C object CMakeFiles/cmTC_9d304.dir/src.c.o
+/usr/bin/cc -DC_WARN_ERROR_VLA  -fuse-ld=gold -fopenmp    -Werror=vla -o CMakeFiles/cmTC_9d304.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-sSwCba/src.c
+Linking C executable cmTC_9d304
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d304.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_9d304.dir/src.c.o -o cmTC_9d304 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-sSwCba'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_STRICT_PROTOTYPES succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-BZs3cJ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7c2ad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7c2ad.dir/build.make CMakeFiles/cmTC_7c2ad.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-BZs3cJ'
+Building C object CMakeFiles/cmTC_7c2ad.dir/src.c.o
+/usr/bin/cc -DC_WARN_STRICT_PROTOTYPES  -fuse-ld=gold -fopenmp    -Wstrict-prototypes -o CMakeFiles/cmTC_7c2ad.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-BZs3cJ/src.c
+Linking C executable cmTC_7c2ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c2ad.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_7c2ad.dir/src.c.o -o cmTC_7c2ad 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-BZs3cJ'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_MISSING_PROTOTYPES succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-mkDQze
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6bf72/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6bf72.dir/build.make CMakeFiles/cmTC_6bf72.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-mkDQze'
+Building C object CMakeFiles/cmTC_6bf72.dir/src.c.o
+/usr/bin/cc -DC_WARN_MISSING_PROTOTYPES  -fuse-ld=gold -fopenmp    -Wmissing-prototypes -o CMakeFiles/cmTC_6bf72.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-mkDQze/src.c
+Linking C executable cmTC_6bf72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bf72.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_6bf72.dir/src.c.o -o cmTC_6bf72 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-mkDQze'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_NO_CHAR_SUBSCRIPTS succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-Sv2OSU
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_807e9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_807e9.dir/build.make CMakeFiles/cmTC_807e9.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-Sv2OSU'
+Building C object CMakeFiles/cmTC_807e9.dir/src.c.o
+/usr/bin/cc -DC_WARN_NO_CHAR_SUBSCRIPTS  -fuse-ld=gold -fopenmp    -Wno-char-subscripts -o CMakeFiles/cmTC_807e9.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-Sv2OSU/src.c
+Linking C executable cmTC_807e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_807e9.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_807e9.dir/src.c.o -o cmTC_807e9 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-Sv2OSU'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_NO_UNKNOWN_PRAGMAS succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-euqutS
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e1079/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e1079.dir/build.make CMakeFiles/cmTC_e1079.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-euqutS'
+Building C object CMakeFiles/cmTC_e1079.dir/src.c.o
+/usr/bin/cc -DC_WARN_NO_UNKNOWN_PRAGMAS  -fuse-ld=gold -fopenmp    -Wno-unknown-pragmas -o CMakeFiles/cmTC_e1079.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-euqutS/src.c
+Linking C executable cmTC_e1079
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1079.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_e1079.dir/src.c.o -o cmTC_e1079 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-euqutS'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_POINTER_ARITH succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-2hD9f2
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1aff7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1aff7.dir/build.make CMakeFiles/cmTC_1aff7.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-2hD9f2'
+Building C object CMakeFiles/cmTC_1aff7.dir/src.c.o
+/usr/bin/cc -DC_WARN_POINTER_ARITH  -fuse-ld=gold -fopenmp    -Wpointer-arith -o CMakeFiles/cmTC_1aff7.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-2hD9f2/src.c
+Linking C executable cmTC_1aff7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1aff7.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_1aff7.dir/src.c.o -o cmTC_1aff7 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-2hD9f2'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_UNUSED_PARAMETER succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-meagLM
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8b32b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b32b.dir/build.make CMakeFiles/cmTC_8b32b.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-meagLM'
+Building C object CMakeFiles/cmTC_8b32b.dir/src.c.o
+/usr/bin/cc -DC_WARN_UNUSED_PARAMETER  -fuse-ld=gold -fopenmp    -Wunused-parameter -o CMakeFiles/cmTC_8b32b.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-meagLM/src.c
+Linking C executable cmTC_8b32b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b32b.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_8b32b.dir/src.c.o -o cmTC_8b32b 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-meagLM'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_WRITE_STRINGS succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-d6G16z
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d36cb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d36cb.dir/build.make CMakeFiles/cmTC_d36cb.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-d6G16z'
+Building C object CMakeFiles/cmTC_d36cb.dir/src.c.o
+/usr/bin/cc -DC_WARN_WRITE_STRINGS  -fuse-ld=gold -fopenmp    -Wwrite-strings -o CMakeFiles/cmTC_d36cb.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-d6G16z/src.c
+Linking C executable cmTC_d36cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d36cb.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_d36cb.dir/src.c.o -o cmTC_d36cb 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-d6G16z'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_LOGICAL_OP succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-0GP8XF
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_50ccd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_50ccd.dir/build.make CMakeFiles/cmTC_50ccd.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-0GP8XF'
+Building C object CMakeFiles/cmTC_50ccd.dir/src.c.o
+/usr/bin/cc -DC_WARN_LOGICAL_OP  -fuse-ld=gold -fopenmp    -Wlogical-op -o CMakeFiles/cmTC_50ccd.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-0GP8XF/src.c
+Linking C executable cmTC_50ccd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50ccd.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_50ccd.dir/src.c.o -o cmTC_50ccd 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-0GP8XF'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_UNDEF succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-cVqXNL
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_32da8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_32da8.dir/build.make CMakeFiles/cmTC_32da8.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-cVqXNL'
+Building C object CMakeFiles/cmTC_32da8.dir/src.c.o
+/usr/bin/cc -DC_WARN_UNDEF  -fuse-ld=gold -fopenmp    -Wundef -o CMakeFiles/cmTC_32da8.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-cVqXNL/src.c
+Linking C executable cmTC_32da8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32da8.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_32da8.dir/src.c.o -o cmTC_32da8 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-cVqXNL'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_INIT_SELF succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-Zdr9GM
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c24e4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c24e4.dir/build.make CMakeFiles/cmTC_c24e4.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-Zdr9GM'
+Building C object CMakeFiles/cmTC_c24e4.dir/src.c.o
+/usr/bin/cc -DC_WARN_INIT_SELF  -fuse-ld=gold -fopenmp    -Winit-self -o CMakeFiles/cmTC_c24e4.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-Zdr9GM/src.c
+Linking C executable cmTC_c24e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c24e4.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_c24e4.dir/src.c.o -o cmTC_c24e4 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-Zdr9GM'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_MISSING_INCLUDE_DIRS succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-1fBi13
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_32ea7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_32ea7.dir/build.make CMakeFiles/cmTC_32ea7.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-1fBi13'
+Building C object CMakeFiles/cmTC_32ea7.dir/src.c.o
+/usr/bin/cc -DC_WARN_MISSING_INCLUDE_DIRS  -fuse-ld=gold -fopenmp    -Wmissing-include-dirs -o CMakeFiles/cmTC_32ea7.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-1fBi13/src.c
+Linking C executable cmTC_32ea7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32ea7.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_32ea7.dir/src.c.o -o cmTC_32ea7 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-1fBi13'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_NO_DIV_BY_ZERO succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-8Xid3J
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4b773/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4b773.dir/build.make CMakeFiles/cmTC_4b773.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-8Xid3J'
+Building C object CMakeFiles/cmTC_4b773.dir/src.c.o
+/usr/bin/cc -DC_WARN_NO_DIV_BY_ZERO  -fuse-ld=gold -fopenmp    -Wno-div-by-zero -o CMakeFiles/cmTC_4b773.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-8Xid3J/src.c
+Linking C executable cmTC_4b773
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b773.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_4b773.dir/src.c.o -o cmTC_4b773 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-8Xid3J'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_TYPE_LIMITS succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-ZYsUWQ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3ad85/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3ad85.dir/build.make CMakeFiles/cmTC_3ad85.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-ZYsUWQ'
+Building C object CMakeFiles/cmTC_3ad85.dir/src.c.o
+/usr/bin/cc -DC_WARN_TYPE_LIMITS  -fuse-ld=gold -fopenmp    -Wtype-limits -o CMakeFiles/cmTC_3ad85.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-ZYsUWQ/src.c
+Linking C executable cmTC_3ad85
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ad85.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_3ad85.dir/src.c.o -o cmTC_3ad85 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-ZYsUWQ'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_FORMAT_SIGN succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-gUUTIg
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cdcec/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cdcec.dir/build.make CMakeFiles/cmTC_cdcec.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-gUUTIg'
+Building C object CMakeFiles/cmTC_cdcec.dir/src.c.o
+/usr/bin/cc -DC_WARN_FORMAT_SIGN  -fuse-ld=gold -fopenmp    -Wformat-signedness -o CMakeFiles/cmTC_cdcec.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-gUUTIg/src.c
+Linking C executable cmTC_cdcec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdcec.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_cdcec.dir/src.c.o -o cmTC_cdcec 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-gUUTIg'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_RESTRICT succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-N6wRV4
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_715de/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_715de.dir/build.make CMakeFiles/cmTC_715de.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-N6wRV4'
+Building C object CMakeFiles/cmTC_715de.dir/src.c.o
+/usr/bin/cc -DC_WARN_RESTRICT  -fuse-ld=gold -fopenmp    -Wrestrict -o CMakeFiles/cmTC_715de.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-N6wRV4/src.c
+Linking C executable cmTC_715de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_715de.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_715de.dir/src.c.o -o cmTC_715de 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-N6wRV4'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_NO_NULL succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-PL9tNQ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3df5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b3df5.dir/build.make CMakeFiles/cmTC_b3df5.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-PL9tNQ'
+Building C object CMakeFiles/cmTC_b3df5.dir/src.c.o
+/usr/bin/cc -DC_WARN_NO_NULL  -fuse-ld=gold -fopenmp    -Wnonnull -o CMakeFiles/cmTC_b3df5.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-PL9tNQ/src.c
+Linking C executable cmTC_b3df5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3df5.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_b3df5.dir/src.c.o -o cmTC_b3df5 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-PL9tNQ'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_ABSOLUTE_VALUE succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-8w57bd
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_62de0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_62de0.dir/build.make CMakeFiles/cmTC_62de0.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-8w57bd'
+Building C object CMakeFiles/cmTC_62de0.dir/src.c.o
+/usr/bin/cc -DC_WARN_ABSOLUTE_VALUE  -fuse-ld=gold -fopenmp    -Wabsolute-value -o CMakeFiles/cmTC_62de0.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-8w57bd/src.c
+Linking C executable cmTC_62de0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62de0.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_62de0.dir/src.c.o -o cmTC_62de0 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-8w57bd'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_UNINITIALIZED succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-wAwWVC
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fe079/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fe079.dir/build.make CMakeFiles/cmTC_fe079.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-wAwWVC'
+Building C object CMakeFiles/cmTC_fe079.dir/src.c.o
+/usr/bin/cc -DC_WARN_UNINITIALIZED  -fuse-ld=gold -fopenmp    -Wuninitialized -o CMakeFiles/cmTC_fe079.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-wAwWVC/src.c
+Linking C executable cmTC_fe079
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe079.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_fe079.dir/src.c.o -o cmTC_fe079 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-wAwWVC'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_REDUNDANT_DECLS succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-YMWmFf
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e7258/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e7258.dir/build.make CMakeFiles/cmTC_e7258.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-YMWmFf'
+Building C object CMakeFiles/cmTC_e7258.dir/src.c.o
+/usr/bin/cc -DC_WARN_REDUNDANT_DECLS  -fuse-ld=gold -fopenmp    -Wredundant-decls -o CMakeFiles/cmTC_e7258.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-YMWmFf/src.c
+Linking C executable cmTC_e7258
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7258.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_e7258.dir/src.c.o -o cmTC_e7258 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-YMWmFf'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_REDUNDANT_DECLS succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-0uPwXg
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9e672/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9e672.dir/build.make CMakeFiles/cmTC_9e672.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-0uPwXg'
+Building CXX object CMakeFiles/cmTC_9e672.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_REDUNDANT_DECLS  -fuse-ld=gold -fopenmp    -Wredundant-decls -o CMakeFiles/cmTC_9e672.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-0uPwXg/src.cxx
+Linking CXX executable cmTC_9e672
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e672.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_9e672.dir/src.cxx.o -o cmTC_9e672 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-0uPwXg'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_SHADOW succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-YpnsOg
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e9b0d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e9b0d.dir/build.make CMakeFiles/cmTC_e9b0d.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-YpnsOg'
+Building C object CMakeFiles/cmTC_e9b0d.dir/src.c.o
+/usr/bin/cc -DC_WARN_SHADOW  -fuse-ld=gold -fopenmp    -Wshadow -o CMakeFiles/cmTC_e9b0d.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-YpnsOg/src.c
+Linking C executable cmTC_e9b0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9b0d.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_e9b0d.dir/src.c.o -o cmTC_e9b0d 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-YpnsOg'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_NO_ERROR_UNUSED_BUT_SET_VARIABLE succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-v12s3F
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b07e6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b07e6.dir/build.make CMakeFiles/cmTC_b07e6.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-v12s3F'
+Building C object CMakeFiles/cmTC_b07e6.dir/src.c.o
+/usr/bin/cc -DC_WARN_NO_ERROR_UNUSED_BUT_SET_VARIABLE  -fuse-ld=gold -fopenmp    -Wno-error=unused-but-set-variable -o CMakeFiles/cmTC_b07e6.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-v12s3F/src.c
+Linking C executable cmTC_b07e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b07e6.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_b07e6.dir/src.c.o -o cmTC_b07e6 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-v12s3F'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_ALL succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-DhxaK2
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7554b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7554b.dir/build.make CMakeFiles/cmTC_7554b.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-DhxaK2'
+Building CXX object CMakeFiles/cmTC_7554b.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_ALL  -fuse-ld=gold -fopenmp    -Wall -o CMakeFiles/cmTC_7554b.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-DhxaK2/src.cxx
+Linking CXX executable cmTC_7554b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7554b.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_7554b.dir/src.cxx.o -o cmTC_7554b 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-DhxaK2'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_NO_INVALID_OFFSETOF succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-G6ZFYb
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b2cdd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b2cdd.dir/build.make CMakeFiles/cmTC_b2cdd.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-G6ZFYb'
+Building CXX object CMakeFiles/cmTC_b2cdd.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_NO_INVALID_OFFSETOF  -fuse-ld=gold -fopenmp    -Wno-invalid-offsetof -o CMakeFiles/cmTC_b2cdd.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-G6ZFYb/src.cxx
+Linking CXX executable cmTC_b2cdd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2cdd.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_b2cdd.dir/src.cxx.o -o cmTC_b2cdd 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-G6ZFYb'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_NO_SIGN_COMPARE succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-pxw1Ye
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8f3b6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8f3b6.dir/build.make CMakeFiles/cmTC_8f3b6.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-pxw1Ye'
+Building CXX object CMakeFiles/cmTC_8f3b6.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_NO_SIGN_COMPARE  -fuse-ld=gold -fopenmp    -Wno-sign-compare -o CMakeFiles/cmTC_8f3b6.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-pxw1Ye/src.cxx
+Linking CXX executable cmTC_8f3b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f3b6.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_8f3b6.dir/src.cxx.o -o cmTC_8f3b6 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-pxw1Ye'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_LOGICAL_OP succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-eGm4vu
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_16bcf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_16bcf.dir/build.make CMakeFiles/cmTC_16bcf.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-eGm4vu'
+Building CXX object CMakeFiles/cmTC_16bcf.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_LOGICAL_OP  -fuse-ld=gold -fopenmp    -Wlogical-op -o CMakeFiles/cmTC_16bcf.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-eGm4vu/src.cxx
+Linking CXX executable cmTC_16bcf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16bcf.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_16bcf.dir/src.cxx.o -o cmTC_16bcf 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-eGm4vu'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_INIT_SELF succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-0CJJzb
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4d69a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4d69a.dir/build.make CMakeFiles/cmTC_4d69a.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-0CJJzb'
+Building CXX object CMakeFiles/cmTC_4d69a.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_INIT_SELF  -fuse-ld=gold -fopenmp    -Winit-self -o CMakeFiles/cmTC_4d69a.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-0CJJzb/src.cxx
+Linking CXX executable cmTC_4d69a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d69a.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_4d69a.dir/src.cxx.o -o cmTC_4d69a 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-0CJJzb'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_MISSING_INCLUDE_DIRS succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-pNIGw3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bddda/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bddda.dir/build.make CMakeFiles/cmTC_bddda.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-pNIGw3'
+Building CXX object CMakeFiles/cmTC_bddda.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_MISSING_INCLUDE_DIRS  -fuse-ld=gold -fopenmp    -Wmissing-include-dirs -o CMakeFiles/cmTC_bddda.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-pNIGw3/src.cxx
+Linking CXX executable cmTC_bddda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bddda.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_bddda.dir/src.cxx.o -o cmTC_bddda 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-pNIGw3'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_NO_DIV_BY_ZERO succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-eU9gys
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_91e77/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_91e77.dir/build.make CMakeFiles/cmTC_91e77.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-eU9gys'
+Building CXX object CMakeFiles/cmTC_91e77.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_NO_DIV_BY_ZERO  -fuse-ld=gold -fopenmp    -Wno-div-by-zero -o CMakeFiles/cmTC_91e77.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-eU9gys/src.cxx
+Linking CXX executable cmTC_91e77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91e77.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_91e77.dir/src.cxx.o -o cmTC_91e77 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-eU9gys'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_TYPE_LIMITS succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-SSYbim
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1e6c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1e6c7.dir/build.make CMakeFiles/cmTC_1e6c7.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-SSYbim'
+Building CXX object CMakeFiles/cmTC_1e6c7.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_TYPE_LIMITS  -fuse-ld=gold -fopenmp    -Wtype-limits -o CMakeFiles/cmTC_1e6c7.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-SSYbim/src.cxx
+Linking CXX executable cmTC_1e6c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e6c7.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_1e6c7.dir/src.cxx.o -o cmTC_1e6c7 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-SSYbim'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_ERROR_RETURN_TYPE succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-ZFRyPG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_393a5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_393a5.dir/build.make CMakeFiles/cmTC_393a5.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-ZFRyPG'
+Building CXX object CMakeFiles/cmTC_393a5.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_ERROR_RETURN_TYPE  -fuse-ld=gold -fopenmp    -Werror=return-type -o CMakeFiles/cmTC_393a5.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-ZFRyPG/src.cxx
+Linking CXX executable cmTC_393a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_393a5.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_393a5.dir/src.cxx.o -o cmTC_393a5 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-ZFRyPG'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_NO_CHAR_SUBSCRIPTS succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-LSP4q0
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ebb19/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ebb19.dir/build.make CMakeFiles/cmTC_ebb19.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-LSP4q0'
+Building CXX object CMakeFiles/cmTC_ebb19.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_NO_CHAR_SUBSCRIPTS  -fuse-ld=gold -fopenmp    -Wno-char-subscripts -o CMakeFiles/cmTC_ebb19.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-LSP4q0/src.cxx
+Linking CXX executable cmTC_ebb19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebb19.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_ebb19.dir/src.cxx.o -o cmTC_ebb19 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-LSP4q0'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_NO_UNKNOWN_PRAGMAS succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-vfmwqG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8f26e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8f26e.dir/build.make CMakeFiles/cmTC_8f26e.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-vfmwqG'
+Building CXX object CMakeFiles/cmTC_8f26e.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_NO_UNKNOWN_PRAGMAS  -fuse-ld=gold -fopenmp    -Wno-unknown-pragmas -o CMakeFiles/cmTC_8f26e.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-vfmwqG/src.cxx
+Linking CXX executable cmTC_8f26e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f26e.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_8f26e.dir/src.cxx.o -o cmTC_8f26e 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-vfmwqG'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_POINTER_ARITH succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-Lmi2DM
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_28b4a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_28b4a.dir/build.make CMakeFiles/cmTC_28b4a.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-Lmi2DM'
+Building CXX object CMakeFiles/cmTC_28b4a.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_POINTER_ARITH  -fuse-ld=gold -fopenmp    -Wpointer-arith -o CMakeFiles/cmTC_28b4a.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-Lmi2DM/src.cxx
+Linking CXX executable cmTC_28b4a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28b4a.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_28b4a.dir/src.cxx.o -o cmTC_28b4a 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-Lmi2DM'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_UNUSED_PARAMETER succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-mVM5bp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2b720/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2b720.dir/build.make CMakeFiles/cmTC_2b720.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-mVM5bp'
+Building CXX object CMakeFiles/cmTC_2b720.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_UNUSED_PARAMETER  -fuse-ld=gold -fopenmp    -Wunused-parameter -o CMakeFiles/cmTC_2b720.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-mVM5bp/src.cxx
+Linking CXX executable cmTC_2b720
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b720.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_2b720.dir/src.cxx.o -o cmTC_2b720 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-mVM5bp'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_WRITE_STRINGS succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-yCgoDa
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c02af/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c02af.dir/build.make CMakeFiles/cmTC_c02af.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-yCgoDa'
+Building CXX object CMakeFiles/cmTC_c02af.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_WRITE_STRINGS  -fuse-ld=gold -fopenmp    -Wwrite-strings -o CMakeFiles/cmTC_c02af.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-yCgoDa/src.cxx
+Linking CXX executable cmTC_c02af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c02af.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_c02af.dir/src.cxx.o -o cmTC_c02af 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-yCgoDa'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_UNDEF succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-z7RpRG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3c7bd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3c7bd.dir/build.make CMakeFiles/cmTC_3c7bd.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-z7RpRG'
+Building CXX object CMakeFiles/cmTC_3c7bd.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_UNDEF  -fuse-ld=gold -fopenmp    -Wundef -o CMakeFiles/cmTC_3c7bd.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-z7RpRG/src.cxx
+Linking CXX executable cmTC_3c7bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c7bd.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_3c7bd.dir/src.cxx.o -o cmTC_3c7bd 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-z7RpRG'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_FORMAT_SIGN succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-t7xo41
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aeec4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aeec4.dir/build.make CMakeFiles/cmTC_aeec4.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-t7xo41'
+Building CXX object CMakeFiles/cmTC_aeec4.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_FORMAT_SIGN  -fuse-ld=gold -fopenmp    -Wformat-signedness -o CMakeFiles/cmTC_aeec4.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-t7xo41/src.cxx
+Linking CXX executable cmTC_aeec4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeec4.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_aeec4.dir/src.cxx.o -o cmTC_aeec4 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-t7xo41'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_RESTRICT succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-RRlqtm
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8274d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8274d.dir/build.make CMakeFiles/cmTC_8274d.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-RRlqtm'
+Building CXX object CMakeFiles/cmTC_8274d.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_RESTRICT  -fuse-ld=gold -fopenmp    -Wrestrict -o CMakeFiles/cmTC_8274d.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-RRlqtm/src.cxx
+Linking CXX executable cmTC_8274d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8274d.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_8274d.dir/src.cxx.o -o cmTC_8274d 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-RRlqtm'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_UNINITIALIZED succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-5rIKEq
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cbebd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cbebd.dir/build.make CMakeFiles/cmTC_cbebd.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-5rIKEq'
+Building CXX object CMakeFiles/cmTC_cbebd.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_UNINITIALIZED  -fuse-ld=gold -fopenmp    -Wuninitialized -o CMakeFiles/cmTC_cbebd.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-5rIKEq/src.cxx
+Linking CXX executable cmTC_cbebd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbebd.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_cbebd.dir/src.cxx.o -o cmTC_cbebd 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-5rIKEq'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_MISSING_DECLARATIONS succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-giUfX1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eeaf3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eeaf3.dir/build.make CMakeFiles/cmTC_eeaf3.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-giUfX1'
+Building CXX object CMakeFiles/cmTC_eeaf3.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_MISSING_DECLARATIONS  -fuse-ld=gold -fopenmp    -Wmissing-declarations -o CMakeFiles/cmTC_eeaf3.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-giUfX1/src.cxx
+Linking CXX executable cmTC_eeaf3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeaf3.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_eeaf3.dir/src.cxx.o -o cmTC_eeaf3 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-giUfX1'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_IMPLICIT_FALLTHROUGH succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-SW2WjU
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f4bcd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f4bcd.dir/build.make CMakeFiles/cmTC_f4bcd.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-SW2WjU'
+Building C object CMakeFiles/cmTC_f4bcd.dir/src.c.o
+/usr/bin/cc -DC_WARN_IMPLICIT_FALLTHROUGH  -fuse-ld=gold -fopenmp    -Wimplicit-fallthrough=5 -o CMakeFiles/cmTC_f4bcd.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-SW2WjU/src.c
+Linking C executable cmTC_f4bcd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4bcd.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_f4bcd.dir/src.c.o -o cmTC_f4bcd 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-SW2WjU'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_IMPLICIT_FALLTHROUGH succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-cNuLgP
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dc236/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dc236.dir/build.make CMakeFiles/cmTC_dc236.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-cNuLgP'
+Building CXX object CMakeFiles/cmTC_dc236.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_IMPLICIT_FALLTHROUGH  -fuse-ld=gold -fopenmp    -Wimplicit-fallthrough=5 -o CMakeFiles/cmTC_dc236.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-cNuLgP/src.cxx
+Linking CXX executable cmTC_dc236
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc236.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_dc236.dir/src.cxx.o -o cmTC_dc236 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-cNuLgP'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_NO_DEPRECATED_DECLARATIONS succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-wiBJ1H
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3e3c4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3e3c4.dir/build.make CMakeFiles/cmTC_3e3c4.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-wiBJ1H'
+Building C object CMakeFiles/cmTC_3e3c4.dir/src.c.o
+/usr/bin/cc -DC_WARN_NO_DEPRECATED_DECLARATIONS  -fuse-ld=gold -fopenmp    -Wno-deprecated-declarations -o CMakeFiles/cmTC_3e3c4.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-wiBJ1H/src.c
+Linking C executable cmTC_3e3c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e3c4.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_3e3c4.dir/src.c.o -o cmTC_3e3c4 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-wiBJ1H'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_NO_UNUSED_PARAMETER succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-aOB3Fl
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2e9ed/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2e9ed.dir/build.make CMakeFiles/cmTC_2e9ed.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-aOB3Fl'
+Building C object CMakeFiles/cmTC_2e9ed.dir/src.c.o
+/usr/bin/cc -DC_WARN_NO_UNUSED_PARAMETER  -fuse-ld=gold -fopenmp    -Wno-unused-parameter -o CMakeFiles/cmTC_2e9ed.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-aOB3Fl/src.c
+Linking C executable cmTC_2e9ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e9ed.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_2e9ed.dir/src.c.o -o cmTC_2e9ed 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-aOB3Fl'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_NO_UNUSED_FUNCTION succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-6uFcs9
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aa42f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa42f.dir/build.make CMakeFiles/cmTC_aa42f.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-6uFcs9'
+Building C object CMakeFiles/cmTC_aa42f.dir/src.c.o
+/usr/bin/cc -DC_WARN_NO_UNUSED_FUNCTION  -fuse-ld=gold -fopenmp    -Wno-unused-function -o CMakeFiles/cmTC_aa42f.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-6uFcs9/src.c
+Linking C executable cmTC_aa42f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa42f.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_aa42f.dir/src.c.o -o cmTC_aa42f 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-6uFcs9'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_NO_TYPE_LIMITS succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-9qY6Dd
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_38460/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_38460.dir/build.make CMakeFiles/cmTC_38460.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-9qY6Dd'
+Building C object CMakeFiles/cmTC_38460.dir/src.c.o
+/usr/bin/cc -DC_WARN_NO_TYPE_LIMITS  -fuse-ld=gold -fopenmp    -Wno-type-limits -o CMakeFiles/cmTC_38460.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-9qY6Dd/src.c
+Linking C executable cmTC_38460
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38460.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_38460.dir/src.c.o -o cmTC_38460 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-9qY6Dd'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_NO_INT_IN_BOOL_CONTEXT succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-hi7U4r
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ba52f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ba52f.dir/build.make CMakeFiles/cmTC_ba52f.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-hi7U4r'
+Building C object CMakeFiles/cmTC_ba52f.dir/src.c.o
+/usr/bin/cc -DC_WARN_NO_INT_IN_BOOL_CONTEXT  -fuse-ld=gold -fopenmp    -Wno-int-in-bool-context -o CMakeFiles/cmTC_ba52f.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-hi7U4r/src.c
+Linking C executable cmTC_ba52f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba52f.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_ba52f.dir/src.c.o -o cmTC_ba52f 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-hi7U4r'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_NO_FORMAT succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-I1q68n
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ba675/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ba675.dir/build.make CMakeFiles/cmTC_ba675.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-I1q68n'
+Building C object CMakeFiles/cmTC_ba675.dir/src.c.o
+/usr/bin/cc -DC_WARN_NO_FORMAT  -fuse-ld=gold -fopenmp    -Wno-format -o CMakeFiles/cmTC_ba675.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-I1q68n/src.c
+Linking C executable cmTC_ba675
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba675.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_ba675.dir/src.c.o -o cmTC_ba675 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-I1q68n'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_NO_SWITCH succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-m2cXDr
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f82e4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f82e4.dir/build.make CMakeFiles/cmTC_f82e4.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-m2cXDr'
+Building C object CMakeFiles/cmTC_f82e4.dir/src.c.o
+/usr/bin/cc -DC_WARN_NO_SWITCH  -fuse-ld=gold -fopenmp    -Wno-switch -o CMakeFiles/cmTC_f82e4.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-m2cXDr/src.c
+Linking C executable cmTC_f82e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f82e4.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_f82e4.dir/src.c.o -o cmTC_f82e4 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-m2cXDr'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_NO_CLASS_MEMACCESS succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-idP4Ak
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_129b9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_129b9.dir/build.make CMakeFiles/cmTC_129b9.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-idP4Ak'
+Building CXX object CMakeFiles/cmTC_129b9.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_NO_CLASS_MEMACCESS  -fuse-ld=gold -fopenmp    -Wno-class-memaccess -o CMakeFiles/cmTC_129b9.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-idP4Ak/src.cxx
+Linking CXX executable cmTC_129b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_129b9.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_129b9.dir/src.cxx.o -o cmTC_129b9 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-idP4Ak'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_NO_COMMENT succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-YdAI6E
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5f929/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5f929.dir/build.make CMakeFiles/cmTC_5f929.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-YdAI6E'
+Building CXX object CMakeFiles/cmTC_5f929.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_NO_COMMENT  -fuse-ld=gold -fopenmp    -Wno-comment -o CMakeFiles/cmTC_5f929.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-YdAI6E/src.cxx
+Linking CXX executable cmTC_5f929
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f929.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_5f929.dir/src.cxx.o -o cmTC_5f929 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-YdAI6E'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_WARN_NO_UNUSED_TYPEDEFS succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-GrlAB0
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e7991/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e7991.dir/build.make CMakeFiles/cmTC_e7991.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-GrlAB0'
+Building CXX object CMakeFiles/cmTC_e7991.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WARN_NO_UNUSED_TYPEDEFS  -fuse-ld=gold -fopenmp    -Wno-unused-local-typedefs -o CMakeFiles/cmTC_e7991.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-GrlAB0/src.cxx
+Linking CXX executable cmTC_e7991
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7991.dir/link.txt --verbose=1
+/usr/bin/c++  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_e7991.dir/src.cxx.o -o cmTC_e7991 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-GrlAB0'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_WARN_NO_IMPLICIT_FALLTHROUGH succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-OmeAd3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_10f4b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_10f4b.dir/build.make CMakeFiles/cmTC_10f4b.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-OmeAd3'
+Building C object CMakeFiles/cmTC_10f4b.dir/src.c.o
+/usr/bin/cc -DC_WARN_NO_IMPLICIT_FALLTHROUGH  -fuse-ld=gold -fopenmp    -Wno-implicit-fallthrough -o CMakeFiles/cmTC_10f4b.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-OmeAd3/src.c
+Linking C executable cmTC_10f4b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10f4b.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold -fopenmp   -no-pie  CMakeFiles/cmTC_10f4b.dir/src.c.o -o cmTC_10f4b 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-OmeAd3'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test _has_cxxflag_float_conversion succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-0APW1K
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_84e6a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_84e6a.dir/build.make CMakeFiles/cmTC_84e6a.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-0APW1K'
+Building CXX object CMakeFiles/cmTC_84e6a.dir/src.cxx.o
+/usr/bin/c++ -D_has_cxxflag_float_conversion  -Wredundant-decls -Wall -Wno-invalid-offsetof -Wno-sign-compare -Wlogical-op -Winit-self -Wmissing-include-dirs -Wno-div-by-zero -Wtype-limits -Werror=return-type -Wno-char-subscripts -Wno-unknown-pragmas -Wpointer-arith -Wunused-parameter -Wwrite-strings -Wundef -Wformat-signedness -Wrestrict -Wuninitialized -Wundef -Wmissing-declarations -Wimplicit-fallthrough=5  -fuse-ld=gold -fopenmp -std=c++11 -pipe -fPIC -funsigned-char -fno-strict-aliasing -fno-trapping-math -fno-math-errno -fno-signed-zeros -fno-signaling-nans -fno-rounding-math    -Werror=float-conversion -o CMakeFiles/cmTC_84e6a.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-0APW1K/src.cxx
+Linking CXX executable cmTC_84e6a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84e6a.dir/link.txt --verbose=1
+/usr/bin/c++  -Wredundant-decls -Wall -Wno-invalid-offsetof -Wno-sign-compare -Wlogical-op -Winit-self -Wmissing-include-dirs -Wno-div-by-zero -Wtype-limits -Werror=return-type -Wno-char-subscripts -Wno-unknown-pragmas -Wpointer-arith -Wunused-parameter -Wwrite-strings -Wundef -Wformat-signedness -Wrestrict -Wuninitialized -Wundef -Wmissing-declarations -Wimplicit-fallthrough=5  -fuse-ld=gold -fopenmp -std=c++11 -pipe -fPIC -funsigned-char -fno-strict-aliasing -fno-trapping-math -fno-math-errno -fno-signed-zeros -fno-signaling-nans -fno-rounding-math   -no-pie  CMakeFiles/cmTC_84e6a.dir/src.cxx.o -o cmTC_84e6a 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-0APW1K'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test _has_cxxflag_double_promotion succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-WaYm1A
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3ea17/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3ea17.dir/build.make CMakeFiles/cmTC_3ea17.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-WaYm1A'
+Building CXX object CMakeFiles/cmTC_3ea17.dir/src.cxx.o
+/usr/bin/c++ -D_has_cxxflag_double_promotion  -Wredundant-decls -Wall -Wno-invalid-offsetof -Wno-sign-compare -Wlogical-op -Winit-self -Wmissing-include-dirs -Wno-div-by-zero -Wtype-limits -Werror=return-type -Wno-char-subscripts -Wno-unknown-pragmas -Wpointer-arith -Wunused-parameter -Wwrite-strings -Wundef -Wformat-signedness -Wrestrict -Wuninitialized -Wundef -Wmissing-declarations -Wimplicit-fallthrough=5  -fuse-ld=gold -fopenmp -std=c++11 -pipe -fPIC -funsigned-char -fno-strict-aliasing -fno-trapping-math -fno-math-errno -fno-signed-zeros -fno-signaling-nans -fno-rounding-math -Werror=float-conversion    -Werror=double-promotion -o CMakeFiles/cmTC_3ea17.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-WaYm1A/src.cxx
+Linking CXX executable cmTC_3ea17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ea17.dir/link.txt --verbose=1
+/usr/bin/c++  -Wredundant-decls -Wall -Wno-invalid-offsetof -Wno-sign-compare -Wlogical-op -Winit-self -Wmissing-include-dirs -Wno-div-by-zero -Wtype-limits -Werror=return-type -Wno-char-subscripts -Wno-unknown-pragmas -Wpointer-arith -Wunused-parameter -Wwrite-strings -Wundef -Wformat-signedness -Wrestrict -Wuninitialized -Wundef -Wmissing-declarations -Wimplicit-fallthrough=5  -fuse-ld=gold -fopenmp -std=c++11 -pipe -fPIC -funsigned-char -fno-strict-aliasing -fno-trapping-math -fno-math-errno -fno-signed-zeros -fno-signaling-nans -fno-rounding-math -Werror=float-conversion   -no-pie  CMakeFiles/cmTC_3ea17.dir/src.cxx.o -o cmTC_3ea17 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-WaYm1A'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test _has_no_error_unused_macros succeeded with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-pBBsx6
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a5a22/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a5a22.dir/build.make CMakeFiles/cmTC_a5a22.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-pBBsx6'
+Building CXX object CMakeFiles/cmTC_a5a22.dir/src.cxx.o
+/usr/bin/c++ -D_has_no_error_unused_macros  -Wredundant-decls -Wall -Wno-invalid-offsetof -Wno-sign-compare -Wlogical-op -Winit-self -Wmissing-include-dirs -Wno-div-by-zero -Wtype-limits -Werror=return-type -Wno-char-subscripts -Wno-unknown-pragmas -Wpointer-arith -Wunused-parameter -Wwrite-strings -Wundef -Wformat-signedness -Wrestrict -Wuninitialized -Wundef -Wmissing-declarations -Wimplicit-fallthrough=5  -fuse-ld=gold -fopenmp -std=c++11 -pipe -fPIC -funsigned-char -fno-strict-aliasing -fno-trapping-math -fno-math-errno -fno-signed-zeros -fno-signaling-nans -fno-rounding-math -Werror=float-conversion -Werror=double-promotion    -Wno-error=unused-macros -o CMakeFiles/cmTC_a5a22.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-pBBsx6/src.cxx
+Linking CXX executable cmTC_a5a22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5a22.dir/link.txt --verbose=1
+/usr/bin/c++  -Wredundant-decls -Wall -Wno-invalid-offsetof -Wno-sign-compare -Wlogical-op -Winit-self -Wmissing-include-dirs -Wno-div-by-zero -Wtype-limits -Werror=return-type -Wno-char-subscripts -Wno-unknown-pragmas -Wpointer-arith -Wunused-parameter -Wwrite-strings -Wundef -Wformat-signedness -Wrestrict -Wuninitialized -Wundef -Wmissing-declarations -Wimplicit-fallthrough=5  -fuse-ld=gold -fopenmp -std=c++11 -pipe -fPIC -funsigned-char -fno-strict-aliasing -fno-trapping-math -fno-math-errno -fno-signed-zeros -fno-signaling-nans -fno-rounding-math -Werror=float-conversion -Werror=double-promotion   -no-pie  CMakeFiles/cmTC_a5a22.dir/src.cxx.o -o cmTC_a5a22 
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-pBBsx6'
+
+
+Source file was:
+int main() { return 0; }
+

@@ -1,0 +1,404 @@
+intern/cycles/kernel/CMakeFiles/cycles_kernel.dir/kernels/cpu/kernel.cpp.o: \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/kernels/cpu/kernel.cpp \
+ /usr/include/stdc-predef.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_types.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_math.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_color.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_math.h \
+ /usr/include/c++/11/cmath \
+ /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+ /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+ /usr/include/aarch64-linux-gnu/bits/timesize.h \
+ /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+ /usr/include/aarch64-linux-gnu/bits/long-double.h \
+ /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+ /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+ /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
+ /usr/include/c++/11/bits/cpp_type_traits.h \
+ /usr/include/c++/11/ext/type_traits.h /usr/include/math.h \
+ /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/aarch64-linux-gnu/bits/types.h \
+ /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+ /usr/include/aarch64-linux-gnu/bits/time64.h \
+ /usr/include/aarch64-linux-gnu/bits/math-vector.h \
+ /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/aarch64-linux-gnu/bits/floatn.h \
+ /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+ /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
+ /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
+ /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
+ /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/11/bits/std_abs.h /usr/include/stdlib.h \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+ /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+ /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+ /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/aarch64-linux-gnu/sys/types.h \
+ /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/aarch64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/aarch64-linux-gnu/bits/endian.h \
+ /usr/include/aarch64-linux-gnu/bits/endianness.h \
+ /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+ /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/aarch64-linux-gnu/sys/select.h \
+ /usr/include/aarch64-linux-gnu/bits/select.h \
+ /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/aarch64-linux-gnu/bits/select2.h \
+ /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+ /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+ /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+ /usr/include/alloca.h \
+ /usr/include/aarch64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/aarch64-linux-gnu/bits/stdlib.h \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/float.h \
+ /usr/include/c++/11/math.h /usr/include/stdio.h \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/aarch64-linux-gnu/bits/stdio.h \
+ /usr/include/aarch64-linux-gnu/bits/stdio2.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types.h \
+ /usr/include/c++/11/stdlib.h /usr/include/c++/11/cstdlib \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
+ /usr/include/aarch64-linux-gnu/bits/wchar.h \
+ /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_defines.h \
+ /usr/include/c++/11/cassert /usr/include/assert.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_optimization.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_simd.h \
+ /usr/include/c++/11/limits \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_uchar2.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_uchar3.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_uchar4.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_int2.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_int3.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_int4.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_uint2.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_uint3.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_uint4.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_ushort4.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_float2.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_float3.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_float4.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_float8.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_vector3.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_uchar2_impl.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_uchar3_impl.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_uchar4_impl.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_int2_impl.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_int3_impl.h \
+ /usr/include/c++/11/cstdio \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_int4_impl.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_uint2_impl.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_uint3_impl.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_uint4_impl.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_float2_impl.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_float3_impl.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_float4_impl.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_float8_impl.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_types_vector3_impl.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_sseb.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_ssef.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_ssei.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_ssei.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_math_int2.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_math_int3.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_math_int4.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_math_float2.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_math_float3.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_math_float4.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_rect.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_math_fast.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_math_intersect.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_projection.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_transform.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /usr/include/aarch64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/aarch64-linux-gnu/bits/string_fortified.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_texture.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_transform.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_types.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_static_assert.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernels/cpu/kernel_cpu.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernels/cpu/kernel_cpu_impl.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_compat_cpu.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_half.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/split/kernel_split_data.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/split/kernel_split_data_types.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_globals.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_profiling.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_profiling.h \
+ /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
+ /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/11/bits/move.h /usr/include/c++/11/type_traits \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_map.h \
+ /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
+ /usr/include/c++/11/bits/stl_algobase.h \
+ /usr/include/c++/11/bits/functexcept.h \
+ /usr/include/c++/11/bits/exception_defines.h \
+ /usr/include/c++/11/ext/numeric_traits.h \
+ /usr/include/c++/11/bits/stl_pair.h \
+ /usr/include/c++/11/bits/stl_iterator_base_types.h \
+ /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/11/bits/concept_check.h \
+ /usr/include/c++/11/debug/assertions.h \
+ /usr/include/c++/11/bits/stl_iterator.h \
+ /usr/include/c++/11/bits/ptr_traits.h /usr/include/c++/11/debug/debug.h \
+ /usr/include/c++/11/bits/predefined_ops.h \
+ /usr/include/c++/11/bits/allocator.h \
+ /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
+ /usr/include/c++/11/ext/new_allocator.h /usr/include/c++/11/new \
+ /usr/include/c++/11/bits/exception.h \
+ /usr/include/c++/11/bits/memoryfwd.h \
+ /usr/include/c++/11/bits/stl_function.h \
+ /usr/include/c++/11/backward/binders.h \
+ /usr/include/c++/11/ext/alloc_traits.h \
+ /usr/include/c++/11/bits/alloc_traits.h \
+ /usr/include/c++/11/bits/stl_construct.h \
+ /usr/include/c++/11/ext/aligned_buffer.h \
+ /usr/include/c++/11/bits/stl_map.h /usr/include/c++/11/initializer_list \
+ /usr/include/c++/11/tuple /usr/include/c++/11/utility \
+ /usr/include/c++/11/bits/stl_relops.h /usr/include/c++/11/array \
+ /usr/include/c++/11/bits/range_access.h \
+ /usr/include/c++/11/bits/uses_allocator.h \
+ /usr/include/c++/11/bits/invoke.h \
+ /usr/include/c++/11/bits/stl_multimap.h \
+ /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/unordered_map \
+ /usr/include/c++/11/bits/functional_hash.h \
+ /usr/include/c++/11/bits/hash_bytes.h \
+ /usr/include/c++/11/bits/hashtable.h \
+ /usr/include/c++/11/bits/hashtable_policy.h \
+ /usr/include/c++/11/bits/enable_special_members.h \
+ /usr/include/c++/11/bits/unordered_map.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_thread.h \
+ /usr/include/c++/11/condition_variable /usr/include/c++/11/chrono \
+ /usr/include/c++/11/ratio /usr/include/c++/11/cstdint \
+ /usr/include/c++/11/ctime /usr/include/time.h \
+ /usr/include/aarch64-linux-gnu/bits/time.h \
+ /usr/include/aarch64-linux-gnu/bits/timex.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/c++/11/bits/parse_numbers.h \
+ /usr/include/c++/11/bits/std_mutex.h /usr/include/c++/11/system_error \
+ /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
+ /usr/include/c++/11/cerrno /usr/include/errno.h \
+ /usr/include/aarch64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/aarch64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
+ /usr/include/c++/11/iosfwd /usr/include/c++/11/bits/stringfwd.h \
+ /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar \
+ /usr/include/wchar.h /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+ /usr/include/aarch64-linux-gnu/bits/wchar2.h \
+ /usr/include/c++/11/stdexcept /usr/include/c++/11/exception \
+ /usr/include/c++/11/bits/exception_ptr.h \
+ /usr/include/c++/11/bits/cxxabi_init_exception.h \
+ /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
+ /usr/include/c++/11/string /usr/include/c++/11/bits/char_traits.h \
+ /usr/include/c++/11/bits/localefwd.h \
+ /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
+ /usr/include/c++/11/clocale /usr/include/locale.h \
+ /usr/include/aarch64-linux-gnu/bits/locale.h /usr/include/c++/11/cctype \
+ /usr/include/ctype.h /usr/include/c++/11/bits/ostream_insert.h \
+ /usr/include/c++/11/bits/cxxabi_forced.h \
+ /usr/include/c++/11/bits/basic_string.h \
+ /usr/include/c++/11/ext/atomicity.h \
+ /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+ /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/aarch64-linux-gnu/bits/sched.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+ /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
+ /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+ /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/11/ext/string_conversions.h \
+ /usr/include/c++/11/bits/charconv.h \
+ /usr/include/c++/11/bits/basic_string.tcc \
+ /usr/include/c++/11/bits/unique_lock.h \
+ /usr/include/c++/11/bits/shared_ptr.h \
+ /usr/include/c++/11/bits/shared_ptr_base.h \
+ /usr/include/c++/11/bits/allocated_ptr.h \
+ /usr/include/c++/11/bits/refwrap.h /usr/include/c++/11/bits/unique_ptr.h \
+ /usr/include/c++/11/ext/concurrence.h /usr/include/c++/11/functional \
+ /usr/include/c++/11/bits/std_function.h /usr/include/c++/11/mutex \
+ /usr/include/c++/11/queue /usr/include/c++/11/deque \
+ /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
+ /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/bits/stl_heap.h \
+ /usr/include/c++/11/bits/stl_queue.h /usr/include/c++/11/thread \
+ /usr/include/c++/11/bits/std_thread.h \
+ /usr/include/c++/11/bits/this_thread_sleep.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_function.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_vector.h \
+ /usr/include/c++/11/cstring \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_aligned_malloc.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_guarded_allocator.h \
+ /usr/include/c++/11/cstddef /usr/include/c++/11/memory \
+ /usr/include/c++/11/bits/stl_tempbuf.h \
+ /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
+ /usr/include/c++/11/bits/shared_ptr_atomic.h \
+ /usr/include/c++/11/backward/auto_ptr.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/../../guardedalloc/MEM_guardedalloc.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/../../guardedalloc/../../source/blender/blenlib/BLI_compiler_attrs.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/../../guardedalloc/../../source/blender/blenlib/BLI_sys_types.h \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_textures.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_color.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernels/cpu/kernel_cpu_image.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_film.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_path.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_random.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_jitter.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../util/util_hash.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_projection.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_montecarlo.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_differential.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_camera.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/geom/geom.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/geom/geom_attribute.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/geom/geom_object.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/geom/geom_patch.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/geom/geom_triangle.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/geom/geom_subd_triangle.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/geom/geom_triangle_intersect.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/geom/geom_motion_triangle.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/geom/geom_motion_triangle_intersect.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/geom/geom_motion_triangle_shader.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/geom/geom_motion_curve.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/geom/geom_curve.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/geom/geom_curve_intersect.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/geom/geom_volume.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/geom/geom_primitive.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/bvh/bvh.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/bvh/bvh_types.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/bvh/bvh_nodes.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/bvh/bvh_traversal.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/bvh/bvh_local.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/bvh/bvh_volume.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/bvh/bvh_shadow_all.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/bvh/bvh_volume_all.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_write_passes.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_accumulate.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_shader.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/alloc.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf_util.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf_ashikhmin_velvet.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf_diffuse.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf_oren_nayar.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf_phong_ramp.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf_diffuse_ramp.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf_microfacet.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf_microfacet_multi.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf_microfacet_multi_impl.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf_reflection.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf_refraction.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf_transparent.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf_ashikhmin_shirley.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf_toon.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf_hair.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf_hair_principled.h \
+ /usr/include/c++/11/fenv.h /usr/include/fenv.h \
+ /usr/include/aarch64-linux-gnu/bits/fenv.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf_principled_diffuse.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bsdf_principled_sheen.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/bssrdf.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/volume.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/closure/emissive.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_noise.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_fractal_noise.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_color_util.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_mapping_util.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_math_util.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_aov.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_attribute.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_blackbody.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_brick.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_brightness.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_bump.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_camera.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_checker.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_clamp.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_closure.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_convert.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_displace.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_fresnel.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_gamma.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_geometry.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_gradient.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_hsv.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_ies.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_image.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_invert.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_light_path.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_magic.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_map_range.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_mapping.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_math.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_mix.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_musgrave.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_noisetex.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_normal.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_ramp.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_sepcomb_hsv.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_sepcomb_vector.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_sky.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_tex_coord.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_value.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_vector_rotate.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_vector_transform.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_vertex_color.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_voronoi.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_voxel.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_wave.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_wavelength.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_white_noise.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_wireframe.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_ao.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/svm/svm_bevel.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_light.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_adaptive_sampling.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_passes.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_id_passes.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_volume.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_subsurface.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_path_state.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_shadow.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_emission.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_path_common.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_path_surface.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_path_volume.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_path_subsurface.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_path_branched.h \
+ /home/orangepi/blender-arm64/intern/cycles/kernel/../kernel/kernel_bake.h

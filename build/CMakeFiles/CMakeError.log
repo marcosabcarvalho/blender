@@ -1,0 +1,92 @@
+Performing C SOURCE FILE Test SUPPORT_SSE_BUILD failed with the following compile output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-GfO61M
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4189d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4189d.dir/build.make CMakeFiles/cmTC_4189d.dir/build
+gmake[1]: Entrando no diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-GfO61M'
+Building C object CMakeFiles/cmTC_4189d.dir/src.c.o
+/usr/bin/cc -DSUPPORT_SSE_BUILD  -msse -msse2 -o CMakeFiles/cmTC_4189d.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-GfO61M/src.c
+cc: error: unrecognized command-line option ‘-msse’
+cc: error: unrecognized command-line option ‘-msse2’
+gmake[1]: *** [CMakeFiles/cmTC_4189d.dir/build.make:78: CMakeFiles/cmTC_4189d.dir/src.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-GfO61M'
+gmake: *** [Makefile:127: cmTC_4189d/fast] Erro 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+      #include <xmmintrin.h>
+      int main(void) { __m128 v = _mm_setzero_ps(); return 0; }
+
+Performing C SOURCE FILE Test SUPPORT_SSE2_BUILD failed with the following compile output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-vzQ9T9
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13f75/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13f75.dir/build.make CMakeFiles/cmTC_13f75.dir/build
+gmake[1]: Entrando no diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-vzQ9T9'
+Building C object CMakeFiles/cmTC_13f75.dir/src.c.o
+/usr/bin/cc -DSUPPORT_SSE2_BUILD  -msse -msse2 -o CMakeFiles/cmTC_13f75.dir/src.c.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-vzQ9T9/src.c
+cc: error: unrecognized command-line option ‘-msse’
+cc: error: unrecognized command-line option ‘-msse2’
+gmake[1]: *** [CMakeFiles/cmTC_13f75.dir/build.make:78: CMakeFiles/cmTC_13f75.dir/src.c.o] Erro 1
+gmake[1]: Saindo do diretório '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-vzQ9T9'
+gmake: *** [Makefile:127: cmTC_13f75/fast] Erro 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+      #include <emmintrin.h>
+      int main(void) { __m128d v = _mm_setzero_pd(); return 0; }
+
+Performing C++ SOURCE FILE Test CXX_HAS_SSE failed with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-GGHETE
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a0c66/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a0c66.dir/build.make CMakeFiles/cmTC_a0c66.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-GGHETE'
+Building CXX object CMakeFiles/cmTC_a0c66.dir/src.cxx.o
+/usr/bin/c++ -DCXX_HAS_SSE  -Wredundant-decls -Wall -Wno-invalid-offsetof -Wno-sign-compare -Wlogical-op -Winit-self -Wmissing-include-dirs -Wno-div-by-zero -Wtype-limits -Werror=return-type -Wno-char-subscripts -Wno-unknown-pragmas -Wpointer-arith -Wunused-parameter -Wwrite-strings -Wundef -Wformat-signedness -Wrestrict -Wuninitialized -Wundef -Wmissing-declarations -Wimplicit-fallthrough=5  -fuse-ld=gold -fopenmp -std=c++11 -pipe -fPIC -funsigned-char -fno-strict-aliasing    -msse -o CMakeFiles/cmTC_a0c66.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-GGHETE/src.cxx
+c++: error: unrecognized command-line option '-msse'
+gmake[1]: *** [CMakeFiles/cmTC_a0c66.dir/build.make:78: CMakeFiles/cmTC_a0c66.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-GGHETE'
+gmake: *** [Makefile:127: cmTC_a0c66/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_HAS_AVX failed with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-xdoT3h
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9d1c6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9d1c6.dir/build.make CMakeFiles/cmTC_9d1c6.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-xdoT3h'
+Building CXX object CMakeFiles/cmTC_9d1c6.dir/src.cxx.o
+/usr/bin/c++ -DCXX_HAS_AVX  -Wredundant-decls -Wall -Wno-invalid-offsetof -Wno-sign-compare -Wlogical-op -Winit-self -Wmissing-include-dirs -Wno-div-by-zero -Wtype-limits -Werror=return-type -Wno-char-subscripts -Wno-unknown-pragmas -Wpointer-arith -Wunused-parameter -Wwrite-strings -Wundef -Wformat-signedness -Wrestrict -Wuninitialized -Wundef -Wmissing-declarations -Wimplicit-fallthrough=5  -fuse-ld=gold -fopenmp -std=c++11 -pipe -fPIC -funsigned-char -fno-strict-aliasing    -mavx -o CMakeFiles/cmTC_9d1c6.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-xdoT3h/src.cxx
+c++: error: unrecognized command-line option '-mavx'
+gmake[1]: *** [CMakeFiles/cmTC_9d1c6.dir/build.make:78: CMakeFiles/cmTC_9d1c6.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-xdoT3h'
+gmake: *** [Makefile:127: cmTC_9d1c6/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_HAS_AVX2 failed with the following output:
+Change Dir: /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-roZrF6
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e2f62/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e2f62.dir/build.make CMakeFiles/cmTC_e2f62.dir/build
+gmake[1]: Entering directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-roZrF6'
+Building CXX object CMakeFiles/cmTC_e2f62.dir/src.cxx.o
+/usr/bin/c++ -DCXX_HAS_AVX2  -Wredundant-decls -Wall -Wno-invalid-offsetof -Wno-sign-compare -Wlogical-op -Winit-self -Wmissing-include-dirs -Wno-div-by-zero -Wtype-limits -Werror=return-type -Wno-char-subscripts -Wno-unknown-pragmas -Wpointer-arith -Wunused-parameter -Wwrite-strings -Wundef -Wformat-signedness -Wrestrict -Wuninitialized -Wundef -Wmissing-declarations -Wimplicit-fallthrough=5  -fuse-ld=gold -fopenmp -std=c++11 -pipe -fPIC -funsigned-char -fno-strict-aliasing    -mavx2 -o CMakeFiles/cmTC_e2f62.dir/src.cxx.o -c /home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-roZrF6/src.cxx
+c++: error: unrecognized command-line option '-mavx2'
+gmake[1]: *** [CMakeFiles/cmTC_e2f62.dir/build.make:78: CMakeFiles/cmTC_e2f62.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/orangepi/blender-arm64/build/CMakeFiles/CMakeScratch/TryCompile-roZrF6'
+gmake: *** [Makefile:127: cmTC_e2f62/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+

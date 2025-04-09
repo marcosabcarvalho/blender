@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libbf_editor_space_statusbar.a CMakeFiles/bf_editor_space_statusbar.dir/space_statusbar.c.o
+/usr/bin/ranlib ../../../../lib/libbf_editor_space_statusbar.a

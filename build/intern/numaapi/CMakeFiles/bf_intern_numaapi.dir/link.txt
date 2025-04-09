@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libbf_intern_numaapi.a CMakeFiles/bf_intern_numaapi.dir/source/numaapi.c.o CMakeFiles/bf_intern_numaapi.dir/source/numaapi_linux.c.o CMakeFiles/bf_intern_numaapi.dir/source/numaapi_stub.c.o CMakeFiles/bf_intern_numaapi.dir/source/numaapi_win32.c.o
+/usr/bin/ranlib ../../lib/libbf_intern_numaapi.a

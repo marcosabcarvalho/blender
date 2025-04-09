@@ -1,0 +1,52 @@
+source/blender/ikplugin/CMakeFiles/bf_ikplugin.dir/intern/ikplugin_api.c.o: \
+ /home/orangepi/blender-arm64/source/blender/ikplugin/intern/ikplugin_api.c \
+ /usr/include/stdc-predef.h \
+ /home/orangepi/blender-arm64/source/blender/ikplugin/BIK_api.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_action_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_ID.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_listBase.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_defs.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/../blenlib/BLI_sys_types.h \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
+ /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+ /usr/include/aarch64-linux-gnu/bits/timesize.h \
+ /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+ /usr/include/aarch64-linux-gnu/bits/long-double.h \
+ /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+ /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+ /usr/include/aarch64-linux-gnu/bits/types.h \
+ /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+ /usr/include/aarch64-linux-gnu/bits/time64.h \
+ /usr/include/aarch64-linux-gnu/bits/wchar.h \
+ /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+ /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
+ /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h /usr/include/uchar.h \
+ /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_userdef_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_texture_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_image_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_color_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_vec_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_view2d_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_object_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_object_enums.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_action_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_customdata_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_scene_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_collection_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_curveprofile_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_freestyle_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_layer_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_material_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_view3d_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_movieclip_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_tracking_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_object_types.h \
+ /home/orangepi/blender-arm64/source/blender/makesdna/DNA_view3d_enums.h \
+ /home/orangepi/blender-arm64/source/blender/ikplugin/intern/ikplugin_api.h \
+ /home/orangepi/blender-arm64/source/blender/ikplugin/intern/iksolver_plugin.h \
+ /home/orangepi/blender-arm64/source/blender/ikplugin/intern/itasc_plugin.h

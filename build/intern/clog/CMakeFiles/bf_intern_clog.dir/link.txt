@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libbf_intern_clog.a CMakeFiles/bf_intern_clog.dir/clog.c.o
+/usr/bin/ranlib ../../lib/libbf_intern_clog.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libbf_intern_mantaflow.a CMakeFiles/bf_intern_mantaflow.dir/intern/manta_python_API.cpp.o CMakeFiles/bf_intern_mantaflow.dir/intern/manta_fluid_API.cpp.o CMakeFiles/bf_intern_mantaflow.dir/intern/MANTA_main.cpp.o
+/usr/bin/ranlib ../../lib/libbf_intern_mantaflow.a

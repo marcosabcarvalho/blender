@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libbf_editor_undo.a CMakeFiles/bf_editor_undo.dir/ed_undo.c.o CMakeFiles/bf_editor_undo.dir/memfile_undo.c.o CMakeFiles/bf_editor_undo.dir/undo_system_types.c.o
+/usr/bin/ranlib ../../../../lib/libbf_editor_undo.a

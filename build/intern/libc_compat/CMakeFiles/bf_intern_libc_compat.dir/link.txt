@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libbf_intern_libc_compat.a CMakeFiles/bf_intern_libc_compat.dir/libc_compat.c.o
+/usr/bin/ranlib ../../lib/libbf_intern_libc_compat.a
